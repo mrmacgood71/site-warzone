@@ -1,0 +1,440 @@
+body{
+  background-image: url(../foto/fon/fon.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+
+}
+
+.cont{
+	margin: -10px auto;
+	width:800px;
+
+}
+
+.header {
+    margin: 3px;
+    height: 70px;
+    width: 794px;
+    background: #000000d1;
+	position: sticky;
+	top: 0px;
+}
+
+.content {
+	margin: 3px 3px 0px 3px;
+	height:175%;
+
+}
+
+.footer {
+	margin:  0px 0px 0px -5px;
+    height: 55px;
+    width: 622px;
+	border-top:solid 2px  grey;
+	background:#101010;
+}
+
+.lef{
+	float:left;
+	font-family: Oswald, helvetica, arial, sans-serif;
+		width:160px;
+		height:630px;
+	background:#000000b8;
+	margin-right:12px;
+	}
+	
+	.lef h2{
+		background:#232323;
+		color:#fff;
+		margin:0px;
+		padding: 8px;
+		border-bottom:solid 2px grey;
+		}
+
+.contt{
+	float:left;
+		width: 612px;
+    background: #00000085;
+	color:#9c9c9c;
+	padding:5px 5px 0px 5px;
+	font-family: Oswald, helvetica, arial, sans-serif;
+	}
+	/*меню*/
+	.header ul {
+		padding-top: 5px;
+		padding-left: 5px;
+		}
+	   
+	.header ul li {
+		 margin: 0px -3px 0 0;
+		 display:inline-block;
+		 background-color: #1d1d1d99;
+	     }
+				
+	.header a {
+		display:block;
+		padding:0 22px;
+		font-family: Oswald, helvetica, arial, sans-serif;
+	    color:#fff;
+		font-size:18px;
+		line-height: 60px;
+		text-decoration:none;
+		}
+		
+	 .header a:hover {
+		background-color: #5a5a5a;
+		transition-duration: 0.5s;
+		}
+		
+		.header ul ul {
+					display: none;
+					position: absolute;
+					top: 87%;
+					padding-left:0px;
+				}
+				
+		.header ul ul a {
+					font-size:16px;
+					margin: 1px -3px 0 0;
+				}
+				
+				.header ul li:hover > ul {
+					display:inherit;
+					list-style-type: none;
+					
+				}
+				
+				.header ul ul li {
+					min-width:130px;
+					float:none;
+					display:list-item;
+					position: relative;
+				}
+				
+					.header ul li > a:after { content:  ' \f105'; font-family: FontAwesome;}				
+					.header ul li > a:hover:after {
+									display:inline-flex;
+									font-family: FontAwesome;
+								    -webkit-transform: rotateZ(90deg);
+								    -ms-transform: rotateZ(90deg);
+								    transform: rotateZ(90deg);
+								    transition: 0.5s ;
+									padding-left:5px;
+									}				
+					.header ul li > a:only-child:after { content: ''; }
+					
+					
+/*левое*/
+		
+.lef_block_ram, .lef_block_kar, .lef_block_vlk
+	{
+	width:160px;
+	height:155px;
+	margin-top:20px;
+	color:#fff;
+	text-align: center;
+	font-size:26px;
+	background: #000000e3;
+	}
+	
+/*поиск по сайту*/
+
+	.lef form{
+		padding-top:12px;
+		padding-left: 4px;
+	}
+	.lef button{
+		padding-top:0px;
+		padding-bottom:2px;
+		margin-top:0px;
+		margin-left:-5px;
+		}
+	
+	.lef button:before {
+		content: "\f002";
+		font-family: FontAwesome;
+		font-size: 16px;
+		color: #000000;
+		}
+		
+/*логотип*/
+	
+.foto {
+	margin:3px;
+	width: 794px;
+    height: 166px;
+    object-fit: scale-down;
+	background-image:url(../foto/fon/logotip2.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+
+/*подвал*/
+
+.social-icons ul{
+            list-style: none;
+            display: flex;
+            justify-content: right;
+			float: right;
+			margin:10px;
+        }
+		
+.social-icons ul li a span {
+        color: #000;
+        width: 34px;
+        background: #fff;
+        height: 34px;
+        text-align: center;
+        line-height: 34px;
+        border-radius: 20px;
+        font-size: 13px;
+        margin: 0px 2px;
+        border-radius: 20px;
+        font-size: 14px;
+        margin: 0px 5px;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        }
+        .social-icons ul li a span:hover{color:#0ccbf1;}
+		
+        .bottom-txt p{font-size:18px;
+        color:#fff;
+		float: left;
+        }
+		
+        .social-icons ul li:nth-child(2){
+            margin: 0 10px;
+        }
+		
+        .bottom-txt p a {
+        font-size: 18px;
+        color:#000;
+        letter-spacing: 1px;
+        transition: .4s;
+        }
+		
+        .bottom-txt p a:hover {
+        color: #000;
+        text-decoration: underline;
+        padding-top: px;
+        font-weight: 700;
+        }
+		
+/*часы*/		
+		
+.clock {
+	  border-radius: 50%;
+	  background:#000000ad;
+	  background-size: 50%;
+	  height:10em;
+	  width: 10em;
+	  border:solid 2px  grey;
+	  position:fixed;
+		bottom: 0px;
+		left:0px;
+	  }
+		
+	.toch {
+	  border-radius: 50%;
+	  background:#000000;
+	  background-size: 50%;
+	  height:1em;
+	  width: 1em; 
+	  border:solid 1px  #fff;	
+	  position:fixed;
+		bottom:73px;
+		left:73px;
+	  }	
+		
+	.clock.simple:after {
+	  background: #000;
+	  border-radius: 50%;
+	  content: "";
+	  position: absolute;
+	  left: 50%;
+	  top: 50%;
+	  transform: translate(-50%, -50%);
+	  width: 5%;
+	  height: 5%;
+	  z-index: 10;
+      } 
+	  
+	.minutes-container, .hours-container, .seconds-container {
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  }
+	  
+	  .onen {
+		top: 0px;
+		left: 72px;
+	  }
+	  
+	  .threen {
+		top: 71px;
+		left: 143px;
+	  }
+	  
+	  .sixn {
+		top: 140px;
+		left: 75px;
+	  }
+	  
+	  .ninen {
+		top: 72px;
+		left: 7px;
+	  }
+	  
+	.onen, .threen, .sixn, .ninen {
+		position: absolute;
+		font-weight: bold;
+		font-size: 18px;
+		color: #fff;
+}
+
+	.hours {
+	  background: gray;
+	  height: 20%;
+	  left: 48.75%;
+	  position: absolute;
+	  top: 30%;
+	  transform-origin: 50% 100%;
+	  width: 2.5%;
+}
+
+	.minutes {
+	  background: blue;
+	  height: 40%;
+	  left: 49%;
+	  position: absolute;
+	  top: 10%;
+	  transform-origin: 50% 100%;
+	  width: 2%;
+}
+
+	.seconds {
+	  background: red;
+	  height: 45%;
+	  left: 49.5%;
+	  position: absolute;
+	  top: 14%;
+	  transform-origin: 50% 80%;
+	  width: 1%;
+	  z-index: 8;
+	  }
+
+@keyframes rotate {
+	  100% {
+		transform: rotateZ(360deg);
+	  }
+	}
+
+	.hours-container {
+	  animation: rotate 43200s infinite linear;
+	}
+	.minutes-container {
+	  animation: rotate 3600s infinite linear;
+	}
+	.seconds-container {
+	  animation: rotate 60s infinite linear;
+	}
+	
+/*вход*/
+	#slideout {
+		border-radius: 50%;
+		background: #656565;
+	  position: fixed;
+		top: 175px;
+		right: 0;
+	  -webkit-transition-duration: 0.3s;
+	  -moz-transition-duration: 0.3s;
+	  -o-transition-duration: 0.3s;
+	  transition-duration: 0.3s;
+	}
+
+	#slideout_inner {
+		padding: 8px;
+		height: 150px;
+		width: 280px;
+		border:solid 2px grey;
+		color:#fff;
+		font-family: Oswald, helvetica, arial, sans-serif;
+		background: #2f2f2fb0;
+	  position: fixed;
+		top: 175px;
+		right:-300px;
+	  -webkit-transition-duration: 0.3s;
+	  -moz-transition-duration: 0.3s;
+	  -o-transition-duration: 0.3s;
+	  transition-duration: 0.3s;
+	}
+	
+	#slideout_inner a {
+	    color:#fff;
+		font-size:14px;
+		text-decoration:none;
+		}
+		
+	#slideout_inner a:hover {
+	    color:#5f5f5f;
+
+		}
+		
+	#slideout_inner input {
+		background-color: #444444;
+		color:#fff;
+	}
+	
+	.regist{
+		position:absolute;
+			right:0px;
+		}
+
+	#slideout:hover {
+	  right: 300px;
+	}
+
+	#slideout:hover #slideout_inner {
+	  right: 0px;
+	}
+	
+	.Dragunov, .HDR, .AX-50, .AMR
+	{
+		height: 360px;
+		width: 100%;
+		margin-bottom:20px;
+		background-color:#000000e3;
+	}
+	
+	.gun
+	{
+		width:96%;
+		height:71%;
+		margin-top:-35px;
+	}
+	
+	
+	
+	 h1 {
+		color:#9c9c9c;
+		padding-left:20px;
+		border-left:solid 2px grey;
+		background-color:#001667;
+	}
+	
+	 h4 {
+		padding-left:20px;
+		padding-right:10px;
+		text-align:justify;
+		color:#eaeaea;
+	}
+	

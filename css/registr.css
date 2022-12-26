@@ -1,0 +1,35 @@
+body{
+  background-image: url(../foto/fon/fon.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+
+}
+
+h2 {
+	text-align: center;
+}
+
+.cont{
+	margin: 3px;
+    height: 310px;
+    width: 250px;
+    background: #000000d1;
+	position: fixed;
+		top: 35%;
+		left: 40%;
+	padding: 8px;
+	border:solid 2px grey;
+	color:#fff;
+	font-family: Oswald, helvetica, arial, sans-serif;
+}
+
+.regist{
+		position:absolute;
+			right:11px;
+		}
+
